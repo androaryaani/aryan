@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ed2020, #270000);
+            color: rgb(255, 255, 255);
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.473);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .message {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Dashboard Status</div>
+        <div class="message">student and faculty dashboard is in running state By <span> Andro Ariyaani </span></div>
+    </div>
+    <script>
+        // Check if the user is logged in
+        if (localStorage.getItem("isLoggedIn") !== "true") {
+          alert("Please log in first!");
+          // Redirect back to log.html
+          window.location.href = "log.html";
+        }
+      </script>
+      
+</body>
+</html>

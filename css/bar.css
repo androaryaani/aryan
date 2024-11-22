@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #232323;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.shifts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.shift {
+    padding: 10px 20px;
+    background-color: #f47373;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search-bar-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search-bar-container input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.st-content {
+    margin-bottom: 20px; /* Cards ke beech thoda gap */
+    transition: all 0.3s ease; /* Hide/show animation ke liye */
+}
